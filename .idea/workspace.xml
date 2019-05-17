@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ca4bf9a-2847-49a5-bb9c-1d6e50caed09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithInvalidPhoneNumberCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POM/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POM/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/regAccWithProperCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/regAccWithProperCredentials.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/registerAccWithProperCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/registerAccWithProperCredentials.class" afterDir="false" />
-    </list>
+    <list default="true" id="5ca4bf9a-2847-49a5-bb9c-1d6e50caed09" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccByUsingNrAndSymbolsAtFirstAndLastName.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -108,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithAUsedUsername.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="270">
               <caret line="39" column="39" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -435,8 +424,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.29731545" />
       <window_info id="Structure" order="1" sideWeight="0.5048754" side_tool="true" weight="0.3160981" />
@@ -650,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithAUsedUsername.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -694,6 +672,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithAUsedUsername.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
