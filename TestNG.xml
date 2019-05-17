@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ExamParaBank" parallel="none" >
+
+    <test name = "Test">
+        <parameter name="browserName" value="chrome" />
+
+        <classes>
+            <class name="TestCases.registerAccWithProperCredentials"/>
+        </classes>
+    </test>
+
+
+</suite>
