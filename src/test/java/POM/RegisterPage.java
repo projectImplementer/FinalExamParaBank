@@ -42,17 +42,16 @@ public class RegisterPage extends BasePage {
             //firstName.click();
             Dictionary dict = new Dictionary();
             HashMap<String, WebElement> form = dict.getContactForm(driver);
-            for (String element : form.keySet()) {
-                if (element.contains(name)) {
+            //for (String element : form.keySet()) {
+                if (form.containsKey(name)) {
                     System.out.println("Form item: " + name + " found");
                     form.get(name).sendKeys(input);
-                    break;
+                    //break;
                 } else {
                     System.out.println("The desired form item " + name + " cannot be found in this list");
                 }
             }
         }
-    }
 
     public void clickRegisterButton() {
         if(registerButton.isDisplayed()) {

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ca4bf9a-2847-49a5-bb9c-1d6e50caed09" name="Default Changelist" comment="" />
+    <list default="true" id="5ca4bf9a-2847-49a5-bb9c-1d6e50caed09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithInvalidPhoneNumberCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POM/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POM/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/regAccWithProperCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/regAccWithProperCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/registerAccWithProperCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/registerAccWithProperCredentials.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,33 +28,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Features/registerAccWithProperCredentials.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="153">
+              <caret line="9" column="93" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1646#1647#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAccWithAUsedUsername.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,17 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="21">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="26" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,19 +64,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/framework/RunBrowser.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAccByUsingNrAndSymbolsAtFirstAndLastName.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="26" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,24 +76,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/POM/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Features/registerAnAccountByUsingNrAndSymbolsAtFirstAndLastName.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/POM/RegisterPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-733">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="245">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,16 +96,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccByUsingNrAndSymbolsAtFirstAndLastName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="423">
+              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithAUsedUsername.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithInvalidPhoneNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Features/registerAccWithAUsedUsername.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -139,6 +150,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -148,12 +162,26 @@
         <option value="$PROJECT_DIR$/src/test/java/framework/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/test/java/POM/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/POM/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/POM/RegisterPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/registerAccWithProperCredentials.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Toy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithInvalidPhoneNumberCharacters.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/RegisterAccWithInvalidPhoneNumberCharacters.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/registerAccWithAUsedUsername.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/regAccWithAUsedUsername.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/regAccWithInvalidPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/regAccWithAUsedUsername.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/registerAccWithAUsedUsername.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/registerAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/registerAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/regAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.java" />
+        <option value="$PROJECT_DIR$/src/test/java/POM/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/registerAccByUsingNrAndSymbolsAtFirstAndLastName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/registerAnAccountByUsingNrAndSymbolsAtFirstAndLastName.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/regAccByUsingNrAndSymbolsAtFirstAndLastName.java" />
       </list>
     </option>
   </component>
@@ -170,6 +198,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -216,6 +245,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamParaBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamParaBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="POM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,6 +271,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TestCases" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ExamParaBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamParaBank" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -241,6 +283,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Steps" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -256,7 +299,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: registerAccWithProperCredentials">
+  <component name="RunManager" selected="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/ExamParaBank/TestNG.xml">
+    <configuration name="Feature: RegisterAccWithInvalidPhoneNumberCharacters" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/RegisterAccWithInvalidPhoneNumberCharacters.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ExamParaBank" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RegisterAccWithInvalidPhoneNumberCharacters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: registerAccWithProperCredentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/registerAccWithProperCredentials.feature" />
@@ -300,8 +361,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/ExamParaBank/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExamParaBank" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="registerAccWithInvalidPhoneNumberCharacters" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExamParaBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.registerAccWithInvalidPhoneNumberCharacters" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/bogdan.demetrescu/IdeaProjects/ExamParaBank/TestNG.xml" />
+        <item itemvalue="TestNG.registerAccWithInvalidPhoneNumberCharacters" />
+        <item itemvalue="Cucumber java.Feature: RegisterAccWithInvalidPhoneNumberCharacters" />
         <item itemvalue="Cucumber java.Feature: registerAccWithProperCredentials" />
         <item itemvalue="Cucumber java.Scenario: Input proper credentials" />
       </list>
@@ -326,6 +417,21 @@
     </history-entry>
     <history-entry file="Feature__registerAccWithProperCredentials - 2019.05.17 at 15h 17m 14s.xml">
       <configuration name="Feature: registerAccWithProperCredentials" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__RegisterAccWithInvalidPhoneNumberCharacters - 2019.05.17 at 15h 50m 38s.xml">
+      <configuration name="Feature: RegisterAccWithInvalidPhoneNumberCharacters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="registerAccWithInvalidPhoneNumberCharacters - 2019.05.17 at 16h 11m 06s.xml">
+      <configuration name="registerAccWithInvalidPhoneNumberCharacters" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="registerAccWithInvalidPhoneNumberCharacters - 2019.05.17 at 16h 12m 47s.xml">
+      <configuration name="registerAccWithInvalidPhoneNumberCharacters" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_ExamParaBank_TestNG_xml - 2019.05.17 at 16h 13m 48s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/ExamParaBank/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_bogdan_demetrescu_IdeaProjects_ExamParaBank_TestNG_xml - 2019.05.17 at 16h 14m 35s.xml">
+      <configuration name="C:/Users/bogdan.demetrescu/IdeaProjects/ExamParaBank/TestNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -362,16 +468,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/POM/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/framework/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -392,25 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -421,10 +498,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/POM/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/POM/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="306">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
@@ -433,17 +527,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Toy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/registerAccWithProperCredentials.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/RegisterAccWithInvalidPhoneNumberCharacters.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/registerAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/POM/RegisterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAccWithInvalidPhoneNumberCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAccWithAUsedUsername.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -452,27 +618,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAccWithProperCredentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithProperCredentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="21">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="26" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/registerAccWithAUsedUsername.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithInvalidPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/registerAnAccountByUsingNrAndSymbolsAtFirstAndLastName.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccWithAUsedUsername.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="93" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/registerAccByUsingNrAndSymbolsAtFirstAndLastName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAnAccountByTypingOnlyUsernameAndPasswordWithoutInputingTheOtherFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/regAccByUsingNrAndSymbolsAtFirstAndLastName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

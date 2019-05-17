@@ -3,12 +3,10 @@ package Steps;
 import POM.HomePage;
 import POM.RegisterPage;
 import TestCases.BaseTest;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class regAccWithProperCredentials extends BaseTest {
-
+public class regAccWithAUsedUsername extends BaseTest {
 
     public HomePage home;
     public RegisterPage register;
@@ -18,18 +16,15 @@ public class regAccWithProperCredentials extends BaseTest {
             register = new RegisterPage(driver);
         }
     }
-
-    // Scenario
-
-    @When("^On register Page$")
+    @When("on Register Page")
     public void onRegisterPage() {
         home = new HomePage(driver);
         home.clickRegisterOnHomePage();
         initializeRegisterPage();
     }
 
-    @Then("^Register form is displayed - Input All The Needed Credentials$")
-    public void inputFirstName() {
+    @Then("If Register form is displayed - Input All The Needed Credentials using an already created username")
+    public void ifRegisterFormIsDisplayedInputAllTheNeededCredentialsUsingAnAlreadyCreatedUsername() {
         register.checkRegisterTitle();
         register.clickFormFields("customer.firstName", "Gas");
         register.clickFormFields("customer.lastName", "Pedal");
@@ -43,10 +38,5 @@ public class regAccWithProperCredentials extends BaseTest {
         register.clickFormFields("customer.password", "Limo");
         register.clickFormFields("repeatedPassword", "Limo");
         register.clickRegisterButton();
-    }
-
-    @Then("^Log Out$")
-    public void logOut() {
-        register.clickLogOut();
     }
 }

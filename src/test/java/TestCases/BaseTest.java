@@ -22,12 +22,12 @@ public class BaseTest {
 
 
     @Parameters({"browserName"})
-    @BeforeTest
+    @BeforeClass
     public void startChrome(String browserName){
         driver = RunBrowser.chooseBrowser(browserName);
     }
 
-    @AfterTest
+    @AfterClass
     public void quitChrome() {
         driver.quit();
     }

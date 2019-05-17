@@ -4,10 +4,10 @@ import POM.HomePage;
 import POM.RegisterPage;
 import org.testng.annotations.Test;
 
-public class registerAccWithProperCredentials extends BaseTest {
+public class registerAccWithInvalidPhoneNumberCharacters extends BaseTest {
 
     @Test
-    public void registerAccWithProperCredential() {
+    public void registerAccWithInvalidPhoneNumberCharacter() {
         openHomePage();
         HomePage home = new HomePage(driver);
         home.clickRegisterOnHomePage();
@@ -19,12 +19,12 @@ public class registerAccWithProperCredentials extends BaseTest {
         registerObject.clickFormFields("customer.address.city", "Buritto Town");
         registerObject.clickFormFields("customer.address.state", "Mexico");
         registerObject.clickFormFields("customer.address.zipCode", "112");
-        registerObject.clickFormFields("customer.phoneNumber", "777444333");
+        registerObject.clickFormFields("customer.phoneNumber", "Beer Works with Burrito");
         registerObject.clickFormFields("customer.ssn", "1212");
-        registerObject.clickFormFields("customer.username", "bro");
-        registerObject.clickFormFields("customer.password", "bro");
-        registerObject.clickFormFields("repeatedPassword", "bro");
+        registerObject.clickFormFields("customer.username", "Pepito");
+        registerObject.clickFormFields("customer.password", "Pepito");
+        registerObject.clickFormFields("repeatedPassword", "Pepito");
         registerObject.clickRegisterButton();
-        registerObject.clickLogOut();
     }
+
 }
